@@ -2,8 +2,6 @@
 import cgi
 
 form = cgi.FieldStorage()
-#name = form.getvalue('name')
-#fam = form.getvalue('family')
 bday = form.getvalue('birthdate')
 hobby = form.getvalue('main hobby')
 
